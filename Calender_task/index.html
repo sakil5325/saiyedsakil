@@ -1,0 +1,113 @@
+﻿<!doctype html>
+<html lang="en">
+  
+<!-- Mirrored from getbootstrap.com/docs/4.0/examples/starter-template/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Aug 2018 14:25:27 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://getbootstrap.com/favicon.ico">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/starter-template.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/demo.css"/>
+    <link rel="stylesheet" href="css/theme1.css"/>
+  </head>
+  <body>
+      <main role="main" class="container">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title pop-title" id="exampleModalLiveLabel">Dodawanie wizyty - wybor daty</h5>
+              </div>
+              <div class="modal-body">
+                  <div class="row">
+                      <div class="col">
+                          <div id="caleandar"></div>
+                      </div>
+                      <div class="col">
+                          <div class="row m-t-10">
+                              <div class="col">
+                                  <div class="lbltdate"><b>Date</b></div>
+                                  <div class="tdate">18.08.2018</div>
+                              </div>
+                              <div class="col">
+                                  <div class="lbltdate"><b>Time</b></div>
+                                  <div class="tdate">8:00 - 9:00</div>
+                              </div>
+                          </div>
+                          <div class="row time-scroll-div">
+                              <div class="col-12" style="padding-top: 30px;">
+                                  <div class="left-time">
+                                      <div class="time-slot">8:00</div>
+                                      <div class="time-slot">9:00</div>
+                                  </div>
+                                  <div class="right-time">
+                                      <button type="button" style="display: block;height: 120px;" class="btn btn-cal btn-lg btn-block">
+                                          <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path fill="#FFF" d="M19 24h-14c-1.104 0-2-.896-2-2v-16h18v16c0 1.104-.896 2-2 2m3-19h-20v-2h6v-1.5c0-.827.673-1.5 1.5-1.5h5c.825 0 1.5.671 1.5 1.5v1.5h6v2zm-12-2h4v-1h-4v1z" /></svg>
+                                      </button>
+                                  </div>
+                              </div>
+                              <div class="col-12" style="padding-top: 15px;">
+                                  <div class="left-time">
+                                      <div class="time-slot">10:00</div>
+                                  </div>
+                                  <div class="right-time">
+                                      <div class="form-group">
+                                          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Type here....">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-12" style="padding-top: 15px;">
+                                  <div class="left-time">
+                                      <div class="time-slot">11:00</div>
+                                  </div>
+                                  <div class="right-time">
+                                      <div class="form-group">
+                                          <hr/>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-12" style="padding-top: 15px;">
+                                  <div class="left-time">
+                                      <div class="time-slot">12:00</div>
+                                      <div class="time-slot">13:00</div>
+                                      <div class="time-slot">14:00</div>
+                                  </div>
+                                  <div class="right-time">
+                                      <div class="form-group">
+                                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="9"></textarea>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-cal-default" data-dismiss="modal">Anuluj</button>
+                  <button type="button" class="btn btn-cal btn-cal-big">Przejdz do szczegolow</button>
+              </div>
+          </div>
+      </main><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/caleandar.js"></script>
+    <script type="text/javascript" src="js/demo.js?v=1"></script>
+  </body>
+
+<!-- Mirrored from getbootstrap.com/docs/4.0/examples/starter-template/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Aug 2018 14:25:30 GMT -->
+</html>
